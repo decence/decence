@@ -1,0 +1,25 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.3.RELEASE")
+//        classpath('io.spring.gradle:dependency-management-plugin:0.5.3.RELEASE')
+    }
+}
+
+plugins {
+    id 'java'
+    id 'antlr'
+//    id 'io.spring.dependency-management'
+}
+
+group 'com.manparvesh'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
+}
