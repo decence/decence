@@ -16,7 +16,7 @@ public class Application {
         // SpringApplication.run(Application.class, args);
 
         final Map<String, PolitenessCommand> subCommands = new HashMap<>();
-        subCommands.put("repl", new REPL());
+        subCommands.put("repl", new REPL(System.in));
         subCommands.put("compile", new CompileCommand());
 
         final PolitenessCommandLine commandLine = new PolitenessCommandLine();
