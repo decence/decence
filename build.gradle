@@ -44,10 +44,13 @@ dependencies {
 
     apt "org.projectlombok:lombok:1.18.0"
 
+    implementation 'org.slf4j:slf4j-simple:1.7.18'
     implementation 'org.slf4j:slf4j-api:1.7.18'
 
     antlr "org.antlr:antlr4:4.7.1"
     implementation "org.antlr:antlr4-runtime:4.7.1"
+
+    compile group: 'com.google.guava', name: 'guava', version: '23.5-jre'
 
     compile "com.beust:jcommander:1.72"
 

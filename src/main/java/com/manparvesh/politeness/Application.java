@@ -2,6 +2,7 @@ package com.manparvesh.politeness;
 
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.ParameterException;
+import com.manparvesh.politeness.subcommands.CompileCommand;
 import com.manparvesh.politeness.subcommands.PolitenessCommand;
 import com.manparvesh.politeness.subcommands.REPL;
 
@@ -16,6 +17,7 @@ public class Application {
 
         final Map<String, PolitenessCommand> subCommands = new HashMap<>();
         subCommands.put("repl", new REPL());
+        subCommands.put("compile", new CompileCommand());
 
         final PolitenessCommandLine commandLine = new PolitenessCommandLine();
         final JCommander jCommander = new JCommander(commandLine);
