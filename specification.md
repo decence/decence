@@ -1,5 +1,5 @@
 # Language Specification
-The Grace language is based on politeness and good manners.
+The politeness language is based on politeness and good manners.
 
 Some examples of grace code:
 
@@ -52,6 +52,7 @@ Things to note:
 - while ending a block, you should say `thanks`
 - `kindly` in the beginning of a line would call the inbuilt methods
 - this will be a concurrent language
+- files should be stored with the extensions: `.pls`
 
 TODO:
 - recursive calls

@@ -1,4 +1,4 @@
-package com.manparvesh.grace;
+package com.manparvesh.politeness;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,8 +1,8 @@
 <div align="center">
 
-  <h1>grace</h1>
+  <h1>politeness</h1>
 
-<a href="https://travis-ci.org/manparvesh/grace"><img src="https://img.shields.io/travis-ci/manparvesh/grace.svg?style=flat-square" alt="Build status"></a> <a href="https://manparvesh.mit-license.org/"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License"></a> 
+<a href="https://travis-ci.org/manparvesh/politeness"><img src="https://img.shields.io/travis-ci/manparvesh/politeness.svg?style=flat-square" alt="Build status"></a> <a href="https://manparvesh.mit-license.org/"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License"></a> 
 
   <p>
     [WIP] Programming language based on politeness and good manners, implemented on the JVM
@@ -40,8 +40,6 @@ See [specification](specification.md) for more details.
 
 ### Run the application
 ```
-./gradlew bootRun
+./gradlew run
 ```
-
-In a browser go to `http://localhost:8080/`.
 
