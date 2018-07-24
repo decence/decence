@@ -16,12 +16,12 @@ See [specification](specification.md) for more details.
 
 ## Requirements
 
-* JDK version 7+
+* JDK version 8
 
 ### Compile and run tests
 
 ```
-./gradlew clean build test
+./gradlew test
 ```
 
 ### IDE Setup
@@ -40,6 +40,7 @@ See [specification](specification.md) for more details.
 
 ### Run the application
 ```
-./gradlew run
+> ./gradlew shadowJar
+> java -jar build/libs/politeness-all.jar [options] [command] [command options]
 ```
 

@@ -21,7 +21,8 @@ from i=1 to 10 please
     kindly println i + 2
 thanks
 
-please assign 10 to x
+// set value to a variable
+kindly assign 10 to x
 
 // while loop
 unless x < 15 please
